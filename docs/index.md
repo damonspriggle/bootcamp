@@ -1,37 +1,117 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/damonspriggle/bootcamp/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./code/portfolio.css" />
+</head> 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    <header> 
+   
+        <h1>
+            <a href="/">
+            Damon's Portfolio
+        </a>
+        </h1>  
+               
+        <nav>
+         <ul>
+             <li>
+              <a href="#about-me">About Me</a>
+            </li>
+            <li>
+              <a href="#my-work">My Work</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-### Markdown
+       <!-- about me -->
+      <section class="about">
+      <section id="about-me" class="intro">
+        <h2 class="section-title primary-border">About Me</h2>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <img src="./portfolio/images/FMeUIZJXIAIdkOA.jpg" alt="damon stand off against champ dom" /> <br /></div>
+        <div class="flex-row">
+        <p>
+         I have lots of expierience developing websites. I have done a few lessons about html and css, so I am pracitically an
+         expert at this point. I am also a professional wrestler. I am very good at that too, but I do admit I have slightly more 
+         expierence in that subject. I suprised myself with how much I have enjoyed learning hwow to code. Not that I need to learn 
+         anymore, since I am an expert (as stated above).
+        </p>
+      </div>
+      </section>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+ <!-- my work section -->
+ <section id="my-work">
+    <h2>My Work</h2>
+    <div class="run-buddies"> 
+    <div class="flex-row">
+    <article class="run-buddy">
+      <img class= "two" src="./portfolio/images/Untitled 2.png" alt="run buddy example 1" />
+      <div class="run-buddy-bio">
+        <h3>Example #1</h3>
+      </div>
+    </div>
+    </article>
+    
+    <div class="flex-row">
+    <article class="run-buddy">
+      <img class= "two" src="./portfolio/images/Untitled.png" alt="run buddy example 2" />
+       <div class="run-buddy-bio">
+        <h3>Example #2</h3>
+        </div>
+      </div>
+    </article>
 
-- Bulleted
-- List
+    
+    <div class="flex-row">
+    <article class="run-buddy">
+      <img class= "two" src="./portfolio/images/Untitled 3.png"
+        alt="run buddy example 3" />
+      <div class="run-buddy-bio">
+        <h3>Example #3</h3>
+      </div>
+    </div>
+    </article>
+  </section>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+<!-- contact me -->
 
-[Link](url) and ![Image](src)
-```
+<section id="contact" class="about">
+    <div class="flex-row">
+    <h2 class="section-title secondary-border">Contact Me</h2>
+    </div>
+      <div class="contact-info">
+        <div>
+        <p>
+         Want to reach out to me?
+          <br />
+          Use info provided below for contact:
+        <address>
+          P: 555.555.5555 <br />
+          E: <a href="mailto:damonspriggle@hotmail.com">damonspriggle@hotmail.com</a>
+        </address>
+      </div>
+    </div>
+</section>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/damonspriggle/bootcamp/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<footer>
+    <h2>Portfolio for Week 2<br />
+        U of MN Coding Bootcamp
+    </h2>
+    <div>
+      <p>Created By Damon Spriggle</p><br />
+    </div>
+  </footer>
+</body>
+</html>
